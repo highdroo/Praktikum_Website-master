@@ -14,6 +14,10 @@
 </head>
 
 <body>
+    <header>
+        <a href="todoliste.html">To do liste:</a>
+        <a href="erklärungdertodoliste.html">Erklärung der Todolisteundüberprüfung:</a>
+    </header>
     <ul Id="myList" name="myList">
         <li name="ausgabe">
         </li>
@@ -24,21 +28,21 @@
 
     <script>
         let data = JSON.parse(localStorage.getItem("tasks"));
-        
-        
-        
-        
+
+
+
+
         let html = "";
-        
+
         data.forEach(element => {
-            var completed="";
-            if(element.completed == true){
-                html += "<li class = 'green'>"+element.task+"</li>";
+            var completed = "";
+            if (element.completed == true) {
+                html += "<li class = 'green'>" + element.task + "</li>";
             }
-            else{
-                html += "<li class = 'red'>"+element.task+"</li>";
+            else {
+                html += "<li class = 'red'>" + element.task + "</li>";
             }
-            
+
 
         });
         document.getElementById("myList").innerHTML = html;
