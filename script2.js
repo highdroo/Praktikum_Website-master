@@ -2,7 +2,7 @@ const känguru = document.getElementById("lokal");
 console.log(känguru);
 
 känguru.addEventListener("click", function () {
-    window.location.href = "einfachso.html";
+    window.location.href = "tagesablauf.html";
 
 })
 const koala = document.getElementById("koala_knopf");
@@ -10,7 +10,7 @@ console.log(koala);
 
 koala.addEventListener("click", function () {
     console.log(koala)
-    window.location.href = "chosen_site.html";
+    window.location.href = "info_seite.html";
 
 })
 
@@ -22,10 +22,8 @@ window.onload = function () {
     setTimeout(() => {
         document.getElementById("loader-wrapper").className = "hide";
     }, 400);
-    setTimeout(() => {
-            alert("Da wir eine bestimmte Anzahl an Seiten bekommen haben und ich schon die max Anzahl überschritten habe schreibe ich meine Erwartungen einfach hier also ich hatte eigentlich nur 2 Erwartungen und zwar erstens das ich mehr zu css und java script lerne und zu sehen wie it firmen arbeiten")
-        }, 500);
-    }
+    
+}
 
 
 const answerButton = document.getElementById("answer-button");

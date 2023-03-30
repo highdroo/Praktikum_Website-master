@@ -1,17 +1,18 @@
-Quellen:
-https://auswandern-info.com/australien/klima
-https://herz-fuer-tiere.de/wildlife/wildtier-lexikon/wildtierarten-mit-k/kaengurus
-https://de.wikipedia.org/wiki/Koala
-https://falcondev.de
-https://zoo-vivarium.de/tier/bennett-kaenguru/
-https://herz-fuer-tiere.de/wildlife/wildtier-lexikon/wildtierarten-mit-k/kaengurus
-https://de.wikipedia.org/wiki/Uluru#/media/Datei:Sunset_at_Uluru_on_July_30,_2005.jpg
-https://www.bergfex.de/sommer/leipzig/highlights/18152-zoo-leipzig--der-natur-auf-der-spur-/#images-highlight.18152-1
-https://upload.wikimedia.org/wikipedia/commons/e/ef/Friendly_Male_Koala.JPG
-https://www.saechsische.de/anzeige/die-neuen-riesenkaengurus-sind-da-28197.html
-https://ewvt.de/index.php/impressum
+Tetxt-Quellen:
+Mein Gedächtnis: ,
+ meisten Infos:https://falcondev.de, 20.2:2023
+ Geschäftsführeh:https://www.northdata.de/?id=6704818623, 30.3.2023
 
 
 
 
+Bildquellen:
+Arbeitstelle : https://www.bueromoebel-experte.de/ratgeber/bueroalltag/arbeit-mit-mehreren-bildschirmen/, 30.3 2023
+Spinner image am anfang:https://ewvt.de/index.php/impressum, 20.2:2023
+Arbeitsprojekte mit guender-rakete:https://gruender-rakete.de/was/geschaeftsidee,  30.3:2023
+Arbeitsprojekte mit sls-steuerberatung:https://sls-steuer.de, 30.3.2023
+Bild Praktikumsablauf:https://falcondev.de, 30.3.2023
+Bild Praktikumsablauf "hacker Bild":https://www.alamy.com/rear-view-of-hacker-in-front-of-computer-with-multiple-screens-in-dark-room-image352305699.html, 30.3.2023
+besprechungs bild: https://www.lizenzero.de/blog/start-up-beratung-mit-fachlicher-unterstuetzung-erfolgreich-gruenden/, 30.3.2023
+Kundenbesprechung : https://www.fivecode.de/leistungen/wordpress-website-entwicklung/, 30.3.2023
 

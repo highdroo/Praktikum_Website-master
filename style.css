@@ -5,18 +5,19 @@
 }
 
 
-    /*------------------------------------------------------------------------------*/
-    .spalte  {
-        color: black;
-        
-    }
+/*------------------------------------------------------------------------------*/
+.spalte {
+    color: black;
 
-    html,
-    body {
+}
 
-        overflow-x: auto !important;
-        overflow-y: auto !important;
-    }
+
+html,
+body {
+
+    overflow-x: auto !important;
+    overflow-y: auto !important;
+}
 
 
 .hintergrund1 {
@@ -270,7 +271,7 @@
 }
 
 .link {
-    color:var(--koala-skin);
+    color: var(--koala-skin);
 }
 
 /*animate__shakeX*/
@@ -311,6 +312,8 @@ body {
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 #title {
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 #navbar {
@@ -318,15 +321,18 @@ body {
     text-decoration: none;
     display: flex;
     justify-items: baseline;
-    
+
 }
 
 header {
-    background-color: gray;
-    box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 22px 13px 14px 0px rgba(0, 0, 0, 0.35);
+    background: linear-gradient(135deg,rgba(6,147,227,1) 0%,
+    rgb(155,81,224) 100%);
+    box-shadow: 1px 0px 15px 7px rgba(0,0,0,0.66);
     height: 130px;
     margin-left: 20px;
-    margin-right: 20px;;
+    margin-right: 20px;
+    margin-top:15px;
+    
 }
 
 .startseite {
@@ -361,8 +367,8 @@ header {
 }
 
 .dumbthings {
-    text-decoration:none;
-    color:transparent;
+    text-decoration: none;
+    color: transparent;
 }
 
 .spalte:hover,
@@ -373,6 +379,7 @@ header {
     animation-duration: 1s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
+    font-size: 15px;
 }
 
 .spalte:hover .dumbthings {
@@ -409,19 +416,20 @@ header {
 .auswahlbutton {
     width: 100px;
     background: linear-gradient(90deg, rgba(96, 255, 0, 1) 60%, rgba(14, 0, 255, 1) 82%);
-    color: white;
+    color: black;
     height: 50px;
     font-size: 10px;
     text-decoration: underline;
-    text-decoration-color: white;
+    text-decoration-color: black;
 }
 
 .button {
     width: 300px;
     height: 80px;
-    border-style: dashed;
+    border-style: solid;
     border-color: black;
-    background-color: orange;
+    background:linear-gradient(135deg,rgba(6,147,227,1) 0%,
+    rgb(155,81,224) 100%);
     position: relative;
     margin: 10px;
 
@@ -468,7 +476,8 @@ header {
 }
 
 #loader-wrapper {
-    background-color: goldenrod;
+    background:linear-gradient(135deg,rgba(6,147,227,1) 0%,
+    rgb(155,81,224) 100%);
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -482,7 +491,7 @@ header {
 /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 
 #loader-wrapper.hide {
-   
+
     animation-name: fadeOutUp;
     animation-duration: 2s;
     animation-fill-mode: forwards;
@@ -501,9 +510,10 @@ body {
     overflow-y: auto !important;
 
 }
-.zentrieren{
-    display:flex;
-    align-items:center;
+
+.zentrieren {
+    display: flex;
+    align-items: center;
 }
 
 /*----------------------------------------------*/
