@@ -374,12 +374,12 @@ header {
 .spalte:hover,
 .spalte:hover .dumbthings {
     color: black;
-    transition: 2s;
+    transition: 1s;
     animation-name: pulse;
-    animation-duration: 1s;
+    animation-duration: 0.5s;
     animation-fill-mode: forwards;
     animation-timing-function: ease-in;
-    font-size: 15px;
+    
 }
 
 .spalte:hover .dumbthings {

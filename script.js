@@ -1,3 +1,4 @@
+
 const answerButton = document.getElementById("answer-button");
 const answerElement = document.getElementById("answer");
 var rightanswers = 0;
@@ -157,4 +158,17 @@ randombutton.addEventListener("click", function () {
 //max 60000
 //min 50
 
-gsap.from("img", { duration: 1, x:-100,y:100, opacity: 0, delay: 0, stagger:  0.4  });
+gsap.from("img", { duration: 0.5, x:-100,y:100, opacity: 0, delay: 0, stagger:  0.4  });
+
+const textfeld = document.getElementById("textfeld2","textfeld3");
+const  knopf = document.getElementById("aber");
+
+knopf.addEventListener("submit",function(){
+    
+    if( textfeld.input ="rot"){
+       body.style.backgroundColor = "red";
+    }else{
+        
+    }
+    console.log(value);
+})
