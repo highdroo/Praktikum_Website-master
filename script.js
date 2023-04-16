@@ -5,13 +5,14 @@ var rightanswers = 0;
 answerElement.style.color = "red";
 
 answerButton.addEventListener("click", function () {
+    //wenn gedrückt wird soll das ausgeführt werden
     answerElement.innerHTML = answer;
 
     const q1 = document.getElementsByName("q1");
     console.log(q1);
-    q1.forEach((e) => {
+    q1.forEach((e) => {//für alle Elemente die q1 als Name haben 
         console.log(e);
-        //e.parentElement.style.backgroundColor = (e.value == "true")? 'green':'red';
+        
         e.parentElement.style.backgroundColor = 'transparent';
 
         if (e.checked == true) {
@@ -53,25 +54,27 @@ answerButton.addEventListener("click", function () {
         //e.parentElement.style.backgroundColor = (e.value == "true")? 'green':'red';
         e.parentElement.style.backgroundColor = 'transparent';
 
-        if (e.checked == true) {
+        if (e.checked == true)
+           
+        {
             if (e.value == "true") {
                 e.parentElement.style.backgroundColor = 'green';
                 rightanswers++;
-
-            }
+                
+            }   
+            
             else {
                 e.parentElement.style.backgroundColor = 'red';
             }
         }
     })
-
+    
     setTimeout(() => {
         alert("Du hast  " + rightanswers + " Frage/n richtig beantwortet");
     }, 100);
 
     answerElement.innerHTML = "Du hast " + rightanswers + " Frage/n richtig beantwortet";
-    
-    setTimeout(() => {
+ setTimeout(() => {
         rightanswers = 0;
     },200);
 });
@@ -120,7 +123,7 @@ hintergrundButton.addEventListener("click", function () {
 
         if (e.checked == true) {
             if (e.value == "blue") {
-                hintergrund.style.backgroundColor = `#0025ed`;
+                hintergrund.style.backgroundColor = `blue`;
             }
             else {
                 hintergrund.style.backgroundColor = `#01ff00`;
@@ -160,15 +163,5 @@ randombutton.addEventListener("click", function () {
 
 gsap.from("img", { duration: 0.5, x:-100,y:100, opacity: 0, delay: 0, stagger:  0.4  });
 
-const textfeld = document.getElementById("textfeld2","textfeld3");
-const  knopf = document.getElementById("aber");
 
-knopf.addEventListener("submit",function(){
-    
-    if( textfeld.input ="rot"){
-       body.style.backgroundColor = "red";
-    }else{
-        
-    }
-    console.log(value);
-})
+
