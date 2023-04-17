@@ -10,7 +10,7 @@ console.log(koala);
 
 koala.addEventListener("click", function () {
     console.log(koala)
-    window.location.href = "Info_seite.html";
+    window.location.href = "info_seite.html";
 
 })
 
